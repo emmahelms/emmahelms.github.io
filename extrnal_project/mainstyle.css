@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poiret+One&display=swap');
+
+/*
+font-family: "Lexend", sans-serif;
+ font-family: "Poiret One", sans-serif;
+ */
+
+ * {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: "Poiret One", sans-serif;
+ }
+
+ header {
+    background-color: #9A8B7A;
+    color: #fff;
+    padding: 5px;
+ }
+ 
+ nav, ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li, footer {
+    font-family: "Lexend", sans-serif;
+}
+
+nav ul li a:hover {
+    color:#CCC0B2;
+}
+
+main {
+    padding: 10px 0;
+    background-image: url(images/main.jpg);
+    height: 600px;
+}
+
+h2 {
+    text-align: center;
+    background: #9D9AA3 ;
+    width: 30%;
+    padding: 10px;
+    margin: 12% auto;
+    color:#fff;
+}
+
+footer {
+    text-align: center;
+    background: #9A8B7A;
+    color: #fff;
+    padding: 1px;
+
+}
